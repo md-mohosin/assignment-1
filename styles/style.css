@@ -26,3 +26,67 @@
     border-radius: 6px;
     border: none;
 }
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+.why-development{
+    background: rgba(13, 19, 33, 0.02);
+    /* border: 2px solid green; */
+    margin-top: 100px;
+}
+
+
+.why-development button{
+    padding: 10px 10px;
+}
+
+.development-hading{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.all-card{
+    margin-top: 40px;
+}
+
+.first-card{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    background: linear-gradient(90.00deg, rgb(246, 241, 241),rgba(255, 255, 255, 0.21) 100%);
+}
+.second-card{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    background: linear-gradient(270.00deg, rgb(246, 241, 241),rgb(255, 255, 255) 100%);
+}
+.third-card{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    background: linear-gradient(90.00deg, rgb(246, 241, 241),rgba(255, 255, 255, 0) 100%);
+}
+.card-content{
+    width: 50%;
+}
