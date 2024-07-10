@@ -5,7 +5,6 @@
 }
 
 .banner {
-    /* border: 2px solid red; */
     max-width: 1260px;
     height: 550px;
     background-image: url('../images/Hero-bg.png');
@@ -18,7 +17,6 @@
 }
 
 .banner-content {
-    /* border: 2px solid blue; */
     text-align: center;
     width: 60%;
     margin-top: 20px;
@@ -39,7 +37,7 @@ main {
 
 .why-development {
     background: rgba(13, 19, 33, 0.02);
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
@@ -97,21 +95,27 @@ main {
 
 
 
+.inspiration-container{
+    height: 440px;
+    margin-top: 150px;
+}
 
+.inspiration-content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.inspiration-vidio{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 
-
-
-
-
-
-
-
-
+}
 
 
 .support-section{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
@@ -150,7 +154,7 @@ button {
 }
 
 .current-target-container {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .current-target-content {
