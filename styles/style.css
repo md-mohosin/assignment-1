@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.banner{
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.banner {
     /* border: 2px solid red; */
     max-width: 1260px;
     height: 550px;
@@ -12,14 +17,14 @@
     align-items: center;
 }
 
-.banner-content{
+.banner-content {
     /* border: 2px solid blue; */
     text-align: center;
     width: 60%;
     margin-top: 20px;
 }
 
-.button{
+.button {
     color: white;
     background-color: black;
     padding: 15px 15px;
@@ -27,67 +32,66 @@
     border: none;
 }
 
-main{
+main {
     width: 80%;
     margin: 0 auto;
-    /* border: 2px solid red; */
 }
-.why-development{
+
+.why-development {
     background: rgba(13, 19, 33, 0.02);
-    /* border: 2px solid green; */
     margin-top: 100px;
 }
 
 
-.why-development button{
+.why-development button {
     padding: 10px 10px;
 }
 
-.development-hading{
+.development-hading {
     text-align: center;
     width: 70%;
     margin: 0 auto;
 }
 
 
-.all-card{
+.all-card {
     margin-top: 40px;
 }
 
-.first-card{
+.first-card {
     width: 90%;
     margin: 0 auto;
-    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 20px 20px;
-    background: linear-gradient(90.00deg, rgb(246, 241, 241),rgba(255, 255, 255, 0.21) 100%);
+    background: linear-gradient(90.00deg, rgb(246, 241, 241), rgba(255, 255, 255, 0.21) 100%);
 }
-.second-card{
+
+.second-card {
     width: 90%;
     margin: 0 auto;
-    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 20px 20px;
-    background: linear-gradient(270.00deg, rgb(246, 241, 241),rgb(255, 255, 255) 100%);
+    background: linear-gradient(270.00deg, rgb(246, 241, 241), rgb(255, 255, 255) 100%);
 }
-.third-card{
+
+.third-card {
     width: 90%;
     margin: 0 auto;
-    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 20px 20px;
-    background: linear-gradient(90.00deg, rgb(246, 241, 241),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(246, 241, 241), rgba(255, 255, 255, 0) 100%);
 }
-.card-content{
+
+.card-content {
     width: 50%;
 }
 
@@ -106,36 +110,80 @@ main{
 
 
 
-
-
-
 .support-section{
+    margin-top: 100px;
+}
+
+
+.support-section-content {
+    margin-top: 100px;
     color: white;
     width: 80%;
     height: 300px;
     margin: 0 auto;
-    border: 2px solid tomato;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url('../images/handshake.jpg');
+    background-image: url('../images/handshake.jpg');
     background-position: center;
     background-size: cover;
-   
+    border-radius: 10px;
+
 
 }
 
-.support-section h1{
+.support-section-content h1 {
     font-size: 32px;
 }
 
 
-input{
-    width: 300px;height: 40px;
+
+input {
+    width: 300px;
+    height: 40px;
 }
 
-button{
+button {
     padding: 10px 10px;
     margin-left: 4px;
+}
+
+.current-target-container {
+    margin-top: 100px;
+}
+
+.current-target-content {
+    text-align: center;
+}
+
+.current-target-card {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.current-target-first-card {
+    background-color: #FFF6F4;
+    padding:20px;
+    border-radius: 10px;
+}
+.current-target-second-card {
+    background-color: #F2F6FE;
+    padding:20px;
+    border-radius: 10px;
+}
+.current-target-third-card {
+    background-color: #FFFDF2;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.footer-container {
+    max-width: 1260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7F8F8;
+    margin-top: 100px;
 }
